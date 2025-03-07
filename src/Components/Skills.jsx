@@ -15,10 +15,10 @@ import Linux from "./icons/Linux"
 
 const Skills = () => {
     return (
-        <section className="w-4/5 mx-auto" id="skills">
+        <section className="w-4/5 3xl:w-1/2 mx-auto" id="skills">
             <h1 className="text-5xl text-center my-12">Skills</h1>
             {/* icons */}
-            <div className="flex justify-between flex-wrap">
+            <div className="justify-evenly flex flex-wrap space-y-4 gap-x-4">
                 <Js />
                 <Php />
                 <Python />

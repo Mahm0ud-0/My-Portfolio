@@ -1,18 +1,18 @@
 const About = () => {
     return (
-        <section className="w-4/5 mx-auto" id="about">
+        <section className="w-4/5 3xl:w-1/2 mx-auto" id="about">
             <h1 className="text-5xl text-center my-12">About Me</h1>
-            <div className="flex justify-between items-center gap-x-10">
+            <div className="flex flex-col lg:flex-row space-y-4 justify-between items-center gap-x-10">
                 <div className="aspect-square flex-1">
                     <img
                         src="/src/assets/me.jpg"
-                        className="aspect-square rounded-2xl flex-1"
+                        className="aspect-square object-cover rounded-2xl flex-1"
                         alt=""
                     />
                 </div>
 
-                <article className="text-justify flex-1 text-xl flex flex-col gap-y-20">
-                    <div className="flex justify-between gap-4">
+                <article className="text-justify flex-1 text-xl flex flex-col justify-between gap-y-20">
+                    <div className="flex flex-col lg:flex-row justify-between gap-4">
                         <div className="border border-white p-4 text-center text-2xl font-bold rounded-2xl flex-1">
                             <h3>Education</h3>
                             <p className="text-neutral-300 font-light text-lg">

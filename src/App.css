@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+    --breakpoint-3xl: 1920px
+}
+
 * {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
@@ -13,7 +17,7 @@ body {
 }
 
 svg {
-    @apply w-8 h-8 lg:w-16 lg:h-16 saturate-0 hover:saturate-100;
+    @apply w-12 h-12 lg:w-16 lg:h-16 saturate-[0.7] hover:saturate-200;
 }
 
 #cards-container {

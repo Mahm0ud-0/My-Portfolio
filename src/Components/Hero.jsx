@@ -2,17 +2,17 @@ import Navbar from "./Navbar"
 
 const Hero = () => {
     return (
-        <section className="bg-[url(/src/assets/hero.png)] bg-cover h-screen">
+        <section className="bg-[url(/src/assets/hero.png)] bg-cover bg-no-repeat md:h-screen [2xl]:h-[80vh] text-center">
             <div className="bg-black/70 h-full">
                 <div className="">
                     <Navbar />
                 </div>
-                <div className="flex flex-col items-center gap-y-10 mt-32">
-                    <h1 className="text-6xl w-full flex flex-col justify-center items-center gap-y-4">
+                <div className="flex flex-col items-center gap-y-10 mt-12 lg:mt-28">
+                    <h1 className="text-4xl md:text-6xl w-full flex flex-col justify-center items-center gap-y-4">
                         <span className="">
                             I'm <b>Mahmoud Al-Awaj</b>
                         </span>
-                        <span className="text-2xl text-neutral-300">
+                        <span className="text-xl text-neutral-300">
                             Full-Stack{" "}
                             <b className="text-neutral-50">WEB DEV</b>. &{" "}
                             <b className="text-neutral-50">
@@ -25,13 +25,13 @@ const Hero = () => {
                         <a
                             href="/src/assets/my cv.pdf"
                             download
-                            className="p-3 border border-white rounded-xl"
+                            className="p-3 border border-white rounded-xl hover:bg-neutral-800"
                         >
                             Download CV
                         </a>
                         <a
                             href="#contact"
-                            className="p-3 border !text-black bg-white rounded-xl"
+                            className="p-3 border !text-black bg-white rounded-xl hover:bg-neutral-500"
                         >
                             Contact Me
                         </a>
@@ -39,7 +39,7 @@ const Hero = () => {
                     <div className="flex gap-x-6">
                         <a href="https://linkedin.com/in/mahmoud-al-awaj/" target="_blank">
                             <svg
-                                className="w-8 h-8 lg:w-12 lg:h-12 fill-white"
+                                className="w-8 h-8 lg:w-12 lg:h-12 fill-white hover:fill-neutral-500"
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24"
                             >
@@ -48,7 +48,7 @@ const Hero = () => {
                         </a>
                         <a href="https://github.com/Mahm0ud-0" target="_blank">
                             <svg
-                                className="w-8 h-8 lg:w-12 lg:h-12 fill-white"
+                                className="w-8 h-8 lg:w-12 lg:h-12 fill-white hover:fill-neutral-500"
                                 xmlns="http://www.w3.org/2000/svg"
                                 shapeRendering="geometricPrecision"
                                 textRendering="geometricPrecision"
