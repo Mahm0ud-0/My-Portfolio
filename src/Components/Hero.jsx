@@ -3,7 +3,7 @@ import cv from "../assets/mahmoud_al_awaj.pdf"
 
 const Hero = () => {
     return (
-        <section className="bg-[url(/src/assets/hero.png)] bg-cover bg-no-repeat md:h-screen 2xl:h-[80vh] text-center">
+        <section className="bg-[url(/src/assets/hero.png)] bg-cover bg-no-repeat md:h-screen 3xl:h-[50vh] text-center">
             <div className="bg-black/70 h-full">
                 <div className="">
                     <Navbar />
