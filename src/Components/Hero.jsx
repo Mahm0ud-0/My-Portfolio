@@ -1,8 +1,9 @@
 import Navbar from "./Navbar"
+import cv from "../assets/mahmoud_al_awaj.pdf"
 
 const Hero = () => {
     return (
-        <section className="bg-[url(/src/assets/hero.png)] bg-cover bg-no-repeat md:h-screen [2xl]:h-[80vh] text-center">
+        <section className="bg-[url(/src/assets/hero.png)] bg-cover bg-no-repeat md:h-screen 2xl:h-[80vh] text-center">
             <div className="bg-black/70 h-full">
                 <div className="">
                     <Navbar />
@@ -23,8 +24,7 @@ const Hero = () => {
                     </h1>
                     <div className="flex gap-x-10">
                         <a
-                            href="/src/assets/my cv.pdf"
-                            download
+                            href={cv}
                             className="p-3 border border-white rounded-xl hover:bg-neutral-800"
                         >
                             Download CV
@@ -37,7 +37,10 @@ const Hero = () => {
                         </a>
                     </div>
                     <div className="flex gap-x-6">
-                        <a href="https://linkedin.com/in/mahmoud-al-awaj/" target="_blank">
+                        <a
+                            href="https://linkedin.com/in/mahmoud-al-awaj/"
+                            target="_blank"
+                        >
                             <svg
                                 className="w-8 h-8 lg:w-12 lg:h-12 fill-white hover:fill-neutral-500"
                                 xmlns="http://www.w3.org/2000/svg"
