@@ -1,3 +1,4 @@
+import me from '../assets/me.jpg'
 const About = () => {
     return (
         <section className="w-4/5 3xl:w-1/2 mx-auto" id="about">
@@ -5,7 +6,7 @@ const About = () => {
             <div className="flex flex-col lg:flex-row space-y-4 justify-between items-center gap-x-10">
                 <div className="aspect-square flex-1">
                     <img
-                        src="/src/assets/me.jpg"
+                        src={me}
                         className="aspect-square object-cover rounded-2xl flex-1"
                         alt=""
                     />

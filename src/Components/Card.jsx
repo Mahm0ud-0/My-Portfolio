@@ -25,11 +25,7 @@ const Card = ({ title, img, demo, github }) => {
                         </a>
                     )}
                 </div>
-                <img
-                    src={`src/assets/projects/${img}`}
-                    alt={title}
-                    className="rounded-2xl"
-                />
+                <img src={img} alt={title} className="rounded-2xl" />
                 <div className="lg:hidden flex justify-center gap-x-4 py-4">
                     {github && (
                         <a
