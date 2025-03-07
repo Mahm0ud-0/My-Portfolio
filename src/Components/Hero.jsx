@@ -13,17 +13,18 @@ const Hero = () => {
                         <span className="">
                             I'm <b>Mahmoud Al-Awaj</b>
                         </span>
-                        <span className="text-xl text-neutral-300">
+                        <p className="text-xl text-neutral-300 w-3/4 md:w-auto">
                             Full-Stack{" "}
                             <b className="text-neutral-50">WEB DEV</b>. &{" "}
                             <b className="text-neutral-50">
                                 Software Engineering
                             </b>{" "}
                             Student
-                        </span>
+                        </p>
                     </h1>
                     <div className="flex gap-x-10">
                         <a
+                            target="_blank"
                             href={cv}
                             className="p-3 border border-white rounded-xl hover:bg-neutral-800"
                         >

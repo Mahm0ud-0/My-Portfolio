@@ -33,7 +33,7 @@ const About = () => {
                             </p>
                         </div>
                     </div>
-                    <p className="">
+                    <p className="text-lg">
                         Aspiring full-stack web developer and 3rd-year software
                         engineering student with hands-on experience in building
                         dynamic web applications. Skilled in both frontend and
