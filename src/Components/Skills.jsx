@@ -15,7 +15,7 @@ import Linux from "./icons/Linux"
 
 const Skills = () => {
     return (
-        <section className="w-4/5 mx-auto">
+        <section className="w-4/5 mx-auto" id="skills">
             <h1 className="text-5xl text-center my-12">Skills</h1>
             {/* icons */}
             <div className="flex justify-between flex-wrap">
@@ -28,8 +28,8 @@ const Skills = () => {
                 <ReactIcon />
                 <NodeJS />
                 <Laravel />
-                <Apache />
                 <MySql />
+                <Apache />
                 <Git />
                 <Figma />
                 <Linux />
@@ -39,4 +39,3 @@ const Skills = () => {
 }
 
 export default Skills
-// className="w-8 h-8 lg:w-16 lg:h-16"

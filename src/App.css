@@ -3,7 +3,8 @@
 * {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
-    @apply transition-all
+    @apply transition-all;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -13,4 +14,8 @@ body {
 
 svg {
     @apply w-8 h-8 lg:w-16 lg:h-16 saturate-0 hover:saturate-100;
+}
+
+#cards-container {
+    scrollbar-width: thin;
 }
