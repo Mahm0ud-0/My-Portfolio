@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+* {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    @apply transition-all
+}
+
+body {
+    background-color: #1a1b1d;
+    color: white;
+}
+
+svg {
+    @apply w-8 h-8 lg:w-16 lg:h-16 saturate-0 hover:saturate-100;
+}
