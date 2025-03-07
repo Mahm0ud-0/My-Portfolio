@@ -36,7 +36,7 @@ const Hero = () => {
                             Contact Me
                         </a>
                     </div>
-                    <div className="flex gap-x-6">
+                    <div className="flex gap-x-6 pb-8">
                         <a
                             href="https://linkedin.com/in/mahmoud-al-awaj/"
                             target="_blank"
