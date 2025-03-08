@@ -8,7 +8,7 @@ import Contact from "./Components/Contact"
 
 function App() {
     return (
-        <main className="space-y-32 text-neutral-50 snap-mandatory snap-y">
+        <main className="space-y-32 text-neutral-50">
             <Hero />
             <About />
             <Skills />

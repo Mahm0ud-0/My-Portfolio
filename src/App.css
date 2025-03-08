@@ -18,7 +18,7 @@ body {
 }
 
 section:not(:first-child) {
-    @apply motion-preset-blur-up-lg snap-start;
+    @apply motion-preset-blur-up-lg;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
 }
