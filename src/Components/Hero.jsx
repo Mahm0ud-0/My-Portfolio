@@ -10,10 +10,10 @@ const Hero = () => {
                 </div>
                 <div className="flex flex-col items-center gap-y-10 mt-12 lg:mt-28">
                     <h1 className="text-4xl md:text-6xl w-full flex flex-col justify-center items-center gap-y-4">
-                        <span className="">
+                        <span className="motion-preset-rebound-down">
                             I'm <b>Mahmoud Al-Awaj</b>
                         </span>
-                        <p className="text-xl text-neutral-300 w-3/4 md:w-auto">
+                        <p className="text-xl text-neutral-300 w-3/4 md:w-auto motion-preset-fade-lg">
                             Full-Stack{" "}
                             <b className="text-neutral-50">WEB DEV</b>. &{" "}
                             <b className="text-neutral-50">
@@ -26,13 +26,13 @@ const Hero = () => {
                         <a
                             target="_blank"
                             href={cv}
-                            className="p-3 border border-white rounded-xl hover:bg-neutral-800"
+                            className="p-3 border border-white rounded-xl hover:bg-neutral-800 motion-preset-rebound-up"
                         >
                             Download CV
                         </a>
                         <a
                             href="#contact"
-                            className="p-3 border !text-black bg-white rounded-xl hover:bg-neutral-500"
+                            className="p-3 border !text-black bg-white rounded-xl hover:bg-neutral-500 motion-preset-rebound-up motion-delay-100"
                         >
                             Contact Me
                         </a>

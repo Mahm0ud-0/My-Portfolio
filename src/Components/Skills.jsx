@@ -15,26 +15,29 @@ import Linux from "./icons/Linux"
 
 const Skills = () => {
     return (
-        <section className="w-4/5 3xl:w-1/2 mx-auto" id="skills">
-            <h1 className="text-5xl text-center my-12">Skills</h1>
-            {/* icons */}
-            <div className="justify-evenly flex flex-wrap space-y-4 gap-x-4">
-                <Js />
-                <Php />
-                <Python />
-                <Html />
-                <Css />
-                <Tailwind />
-                <ReactIcon />
-                <NodeJS />
-                <Laravel />
-                <MySql />
-                <Apache />
-                <Git />
-                <Figma />
-                <Linux />
-            </div>
-        </section>
+        <>
+            <div id="skills"></div>
+            <section className="w-4/5 3xl:w-1/2 mx-auto">
+                <h1 className="text-5xl text-center my-12">Skills</h1>
+                {/* icons */}
+                <div className="justify-evenly flex flex-wrap space-y-4 gap-x-4">
+                    <Js />
+                    <Php />
+                    <Python />
+                    <Html />
+                    <Css />
+                    <Tailwind />
+                    <ReactIcon />
+                    <NodeJS />
+                    <Laravel />
+                    <MySql />
+                    <Apache />
+                    <Git />
+                    <Figma />
+                    <Linux />
+                </div>
+            </section>
+        </>
     )
 }
 

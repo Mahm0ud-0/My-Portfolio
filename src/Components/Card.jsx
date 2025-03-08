@@ -1,6 +1,6 @@
 const Card = ({ title, img, demo, github }) => {
     return (
-        <div className="rounded-2xl flex flex-col space-y-4 overflow-hidden relative group min-w-[300px] lg:min-w-[600px]">
+        <div className="rounded-2xl flex flex-col space-y-4 overflow-hidden relative group min-w-full lg:min-w-[600px] snap-start">
             <h2 className="text-center text-lg overflow-ellipsis text-nowrap">
                 {title}
             </h2>

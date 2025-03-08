@@ -8,14 +8,14 @@ import Contact from "./Components/Contact"
 
 function App() {
     return (
-        <div className="space-y-32 text-neutral-50">
+        <main className="space-y-32 text-neutral-50 snap-mandatory snap-y">
             <Hero />
             <About />
             <Skills />
             <Projects />
             <Contact />
             <Footer />
-        </div>
+        </main>
     )
 }
 
