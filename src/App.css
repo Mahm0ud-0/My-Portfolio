@@ -24,7 +24,7 @@ section:not(:first-child) {
 }
 
 svg {
-    @apply w-12 h-12 lg:w-16 lg:h-16 saturate-[0.7] hover:saturate-200;
+    @apply w-12 h-12 lg:w-16 lg:h-16 md:saturate-[0.7] hover:saturate-200;
 }
 
 #cards-container {
