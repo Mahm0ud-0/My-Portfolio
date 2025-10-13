@@ -2,7 +2,7 @@
 @plugin "tailwindcss-motion";
 
 @theme {
-    --breakpoint-3xl: 1920px
+    --breakpoint-3xl: 1920px;
 }
 
 * {
@@ -13,8 +13,13 @@
 }
 
 body {
-    background-color: #1a1b1d;
     color: white;
+    background: url("./assets/doodle.jpg"), linear-gradient(#1a1b1b, #1a1b1b);
+    /* backdrop-filter: gray(1); */
+    background-blend-mode: multiply;
+    background-color: #1a1b1da8;
+    background-repeat: repeat;
+    background-attachment: scroll;
 }
 
 section:not(:first-child) {

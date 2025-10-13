@@ -13,20 +13,22 @@ import tailwind_ecommerce from "./assets/projects/tailwind_ecommerce.png"
 import hoobank from "./assets/projects/hoobank.png"
 import travel_journal from "./assets/projects/travel_journal.png"
 import advice_app from "./assets/projects/advice_app.png"
+import editor from "./assets/projects/jsimg-editor.png"
+import vblog from "./assets/projects/vue-blog.png"
 
 export const projects = [
-    {
-        title: "Little Lemon Resturant Web App",
-        img: littleLemon,
-        demo: "https://littlellemon.netlify.app",
-        github: "https://github.com/Mahm0ud-0/Little-Lemon-Restaurant-Web-App",
-    },
     {
         title: "Moiveo",
         img: moiveo,
         desc: "A movies and series app similar to IMDB, developed using ReactJS and the TMDB API. Users can search for their favorite movies or series, access  detailed information and statistics, and watch trailers from YouTube. The app uses React’s state management, Context, and React Router to  ensure efficient data handling and seamless navigation, and it’s styled with TailwindCSS to deliver a sleek, responsive user experience.",
         demo: "https://moiveo.netlify.app",
         github: "https://github.com/Mahm0ud-0/moiveo",
+    },
+    {
+        title: "Little Lemon Resturant Web App",
+        img: littleLemon,
+        demo: "https://littlellemon.netlify.app",
+        github: "https://github.com/Mahm0ud-0/Little-Lemon-Restaurant-Web-App",
     },
     {
         title: "e-Commerce Website (React & Laravel)",
@@ -37,6 +39,7 @@ export const projects = [
         title: "Multi-Step Form",
         img: multi_step_form,
         github: "https://github.com/Mahm0ud-0/multi-step-form",
+        demo: "https://multistp-form.netlify.app/",
     },
     {
         title: "Pixel Position",
@@ -47,11 +50,7 @@ export const projects = [
         title: "Countries Info",
         img: countries_info,
         github: "https://github.com/Mahm0ud-0/Countries-Info",
-    },
-
-    {
-        title: "To-Dp App (JS)",
-        img: todo_list,
+        demo: "https://countriesiinfo.netlify.app/",
     },
     {
         title: "To-Do App (PHP)",
@@ -59,22 +58,36 @@ export const projects = [
         github: "https://github.com/Mahm0ud-0/PHP-ToDo-App",
     },
     {
-        title: "Quiz App",
-        img: quiz_app,
+        title: "Vue Blog",
+        img: vblog,
+        github: "https://github.com/Mahm0ud-0/vue-blog",
+        demo: "https://vublog.netlify.app/",
+    },
+
+    {
+        title: "To-Dp App (JS)",
+        img: todo_list,
     },
     {
         title: "Calculator",
         img: calculator,
         github: "https://github.com/Mahm0ud-0/JS-Calculator",
+        demo: "https://js-super-calculator.netlify.app",
+    },
+    {
+        title: "JS Image Editor",
+        img: editor,
+        github: "https://github.com/Mahm0ud-0/JS-Image-Editor",
+        demo: "https://jsimg-editor.netlify.app",
+    },
+    {
+        title: "Quiz App",
+        img: quiz_app,
     },
     {
         title: "RSM Blog",
         img: rsm_blog,
         github: "https://github.com/Mahm0ud-0/RSM-Blog",
-    },
-    {
-        title: "e-Commerce Website",
-        img: tailwind_ecommerce,
     },
     {
         title: "HooBank Website",
@@ -86,6 +99,11 @@ export const projects = [
         img: travel_journal,
         github: "https://github.com/Mahm0ud-0/travel-journal",
     },
+    {
+        title: "e-Commerce landing",
+        img: tailwind_ecommerce,
+    },
+
     {
         title: "Advice App",
         img: advice_app,

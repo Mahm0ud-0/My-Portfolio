@@ -10,6 +10,7 @@ import NodeJS from "./icons/NodeJS"
 import Php from "./icons/Php"
 import Python from "./icons/Python"
 import ReactIcon from "./icons/ReactIcon"
+import Vue from "./icons/Vue"
 import Tailwind from "./icons/Tailwind"
 import Linux from "./icons/Linux"
 
@@ -28,6 +29,7 @@ const Skills = () => {
                     <Css />
                     <Tailwind />
                     <ReactIcon />
+                    <Vue />
                     <NodeJS />
                     <Laravel />
                     <MySql />

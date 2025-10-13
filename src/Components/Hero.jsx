@@ -3,17 +3,17 @@ import cv from "../assets/mahmoud_al_awaj.pdf"
 
 const Hero = () => {
     return (
-        <section className="bg-[url(/src/assets/hero.png)] bg-cover bg-no-repeat md:h-screen 3xl:h-[50vh] text-center">
+        <section className="bg-[url(/src/assets/hero.webp)] bg-cover bg-no-repeat md:h-screen 3xl:h-[50vh] text-center">
             <div className="bg-black/70 h-full">
                 <div className="">
                     <Navbar />
                 </div>
-                <div className="flex flex-col items-center gap-y-10 mt-12 lg:mt-28">
-                    <h1 className="text-4xl md:text-6xl w-full flex flex-col justify-center items-center gap-y-4">
+                <div className="flex flex-col items-center gap-y-16 mt-12 lg:mt-28">
+                    <h1 className="text-xl md:text-4xl w-full flex flex-col justify-center items-center gap-y-8">
                         <span className="motion-preset-rebound-down">
                             I'm <b>Mahmoud Al-Awaj</b>
                         </span>
-                        <p className="text-xl text-neutral-300 w-3/4 md:w-auto motion-preset-fade-lg">
+                        <p className="text-lg md:text-5xl text-neutral-300 w-4/5 md:w-auto motion-preset-fade-lg">
                             Full-Stack{" "}
                             <b className="text-neutral-50">WEB DEV</b>. &{" "}
                             <b className="text-neutral-50">
