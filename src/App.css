@@ -13,13 +13,13 @@
 }
 
 body {
-    color: white;
-    background: url("./assets/doodle.jpg"), linear-gradient(#1a1b1b, #1a1b1b);
-    /* backdrop-filter: gray(1); */
-    background-blend-mode: multiply;
-    background-color: #1a1b1da8;
+    /* color: white; */
+    background: url("./assets/doodle.jpg"),
+        linear-gradient(#1a1b1bf7, #1a1b1bf7);
     background-repeat: repeat;
-    background-attachment: scroll;
+    background-size: 300px;
+
+    @apply text-neutral-50 bg-blend-multiply bg-[#1a1b1daf] bg-repeat ;
 }
 
 section:not(:first-child) {
