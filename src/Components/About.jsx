@@ -41,7 +41,7 @@ const About = () => {
                         <div>
                             <p
                                 className={`text-lg ${
-                                    readMore ? "h-[675px]" : "h-72"
+                                    readMore ? "h-[700px]" : "h-72"
                                 } overflow-hidden sm:h-fit`}
                             >
                                 Full-stack web developer and 4th-year software
