@@ -1,5 +1,5 @@
 import Navbar from "./Navbar"
-import cv from "../assets/mahmoud_al_awaj.pdf"
+import cv from "/mahmoud_al_awaj.pdf"
 
 const Hero = () => {
     return (

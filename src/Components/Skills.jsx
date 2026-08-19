@@ -13,6 +13,9 @@ import ReactIcon from "./icons/ReactIcon"
 import Vue from "./icons/Vue"
 import Tailwind from "./icons/Tailwind"
 import Linux from "./icons/Linux"
+import Nest from "./icons/nest"
+import Postgres from "./icons/postgres"
+import Java from "./icons/java"
 
 const Skills = () => {
     return (
@@ -21,18 +24,21 @@ const Skills = () => {
             <section className="w-4/5 3xl:w-1/2 mx-auto">
                 <h1 className="text-5xl text-center my-12">Skills</h1>
                 {/* icons */}
-                <div className="justify-evenly flex flex-wrap space-y-4 gap-x-4">
-                    <Js />
-                    <Php />
+                <div className="justify-center flex flex-wrap space-y-4 gap-x-4">
                     <Python />
+                    <Js />
+                    <Java />
+                    <Php />
                     <Html />
                     <Css />
                     <Tailwind />
                     <ReactIcon />
                     <Vue />
                     <NodeJS />
+                    <Nest />
                     <Laravel />
                     <MySql />
+                    <Postgres />
                     <Apache />
                     <Git />
                     <Figma />
