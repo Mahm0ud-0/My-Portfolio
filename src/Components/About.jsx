@@ -44,23 +44,36 @@ const About = () => {
                                     readMore ? "h-[700px]" : "h-72"
                                 } overflow-hidden sm:h-fit`}
                             >
-                                Full-stack web developer and 4th-year software
-                                engineering student with hands-on experience in
-                                building dynamic web applications. Skilled in
-                                both frontend and backend development, with a
-                                passion for coding, problem solving,
-                                self-improvement, and continuous learning.
+                                Final year software engineering student,
                                 <br />
-                                <br />I began my programming journey with C++
-                                and swiftly transitioned to web development,
-                                mastering HTML, CSS, and JavaScript. Enhancing
-                                my front-end skills, I mastered ReactJS,
-                                developing numerous industry-standard projects.
-                                I then ventured into back-end development,
-                                mastering PHP and Laravel, to complete my
-                                full-stack web development expertise… <br /> I recently
-                                learned VueJS improving my front-end skill-set
-                                and diving deeper in the web development world…
+                                with 2+ years of experience in Full-Stack Web
+                                Development and Backend Engineering. I'm focused
+                                on building scalable backends and applications,
+                                using Clean Architecture principles to build
+                                reliable systems from the Database up to the
+                                User Interface.
+                                <br />
+                                <br />
+                                Actively involved in organizing tech events and
+                                courses at my college, helping fellow students
+                                to dive into software engineering and IT.
+                                <br />
+                                Always eager to learn, take on new challenges
+                                and solve new problems, and collaborate with
+                                teams to build useful solutions.
+                                <br />
+                                <br />
+                                Core Tech Stack:
+                                <br />
+                                - Frontend: React.js, Vue.js, JavaScript,
+                                TailwindCSS
+                                <br />
+                                - Backend: PHP, Laravel, Node.js, NestJS
+                                <br />
+                                - Databases: PostgreSQL, MySQL
+                                <br />
+                                - Tools: Git,GitHub, Postman, Figma
+                                <br />
                             </p>
                             <p
                                 className="text-sm text-neutral-300 mt-6 sm:hidden "
